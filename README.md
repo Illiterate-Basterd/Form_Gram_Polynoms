@@ -11,4 +11,4 @@ Result: x^4+2x^3+x^2
 Result: (-3)
 Result: 3
 ```
-# **!!!Division by a variable is not implemented yet!!!**
+### **!!!Division by a variable is not implemented yet!!!**
