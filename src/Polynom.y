@@ -290,9 +290,17 @@ void PrintPolynom(Polynom pol)
         }
     }
 	if(pol.coefs_[0] > 0)
+	{
+		if(!first)
+			printf("+");
 		printf("%d\n", pol.coefs_[0]);
+	}
 	else if(pol.coefs_[0] < 0)
+	{
+		if(!first)
+			printf("+");
         printf("(%d)\n", pol.coefs_[0]);
+	}
 	else if(pol.coefs_[0] == 0)
 	{
 		if(zero_fl)

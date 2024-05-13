@@ -3,7 +3,7 @@ Compile using Makefile: ```~/Form_Gram_Polynoms$ make build```
 
 Current output on ```~/Form_Gram_Polynoms$ make test```:
 ```
-Result: (-x^23)+23x^6+(-6x^3)+(-5x^2)(-7)
+Result: (-x^23)+23x^6+(-6x^3)+(-5x^2)+(-7)
 Result: 11x^3 
 Result: 0
 Result: x^2+x 
